@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Himes - Software Engineer | Game Developer</title>
+	<meta name="description" content="Patrick Himes | Game Developer Porfolio" />
+	<meta name="keywords" content="software engineer, director, game developer, programmer, unity, unity3d, VR, Virtual Reality, Oculus, portfolio" />
+	<meta name="author" content="Patrick Himes" />
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" href="css/elastic_grid.min.css" />
+	<link href='https://fonts.googleapis.com/css?family=Indie+Flower|Roboto+Condensed' rel='stylesheet' type='text/css'>
+</head>
+<body style="background:#fff;">
+<div id="header">
+	<h1>Patrick Himes - Software Engineer</h1>
+	<h2>Resume { <a href="Patrick Himes_Resume.pdf" target="_blank">PDF</a> | <a href="Patrick Himes_Resume.doc" target="_blank">DOC</a> }</h2>
+</div>
+<div id="menu">
+	<ul id="menu-items">
+		<li><a href="index.html">About Me</a></li>
+		<li class="active">Portfolio</li>
+		<li>Contact</li>
+	</ul>
+</div>
+<div class="content">
+	<div>All of the following games were written in C# using Unity 5's game engine.</div>
+</div>
+<div id="elastic_grid_demo"></div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/classie.js"></script>
+<!--- uncompress-->
+<!-- <script type="text/javascript" src="js/jquery.elastislide.js"></script>
+<script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+<script type="text/javascript" src="js/elastic_grid.js"></script> -->
+
+<!-- compress version-->
+<script type="text/javascript" src="js/elastic_grid.min.js"></script>
+
+<script type="text/javascript">
+    $(function(){
+        $("#elastic_grid_demo").elastic_grid({
+            'showAllText' : 'All',
+            'filterEffect': 'popup', // moveup, scaleup, fallperspective, fly, flip, helix , popup
+            'hoverDirection': true,
+            'hoverDelay': 0,
+            'hoverInverse': false,
+            'expandingSpeed': 500,
+            'expandingHeight': 500,
+            'items' :
+            [
+                {
+                    'title'         : 'Rhythm Heaven Fever: See-Saw Parody Game',
+                    'description'   : 'This game is all about timing. Press the spacebar as Rainbow Dash touches the see-saw to help her stick the landing. But be careful, too many missed landings and it could end badly for her!',
+                    'thumbnail'     : ['images/small/seesaw.png','images/small/seesaw02.png','images/small/seesaw03.png','images/small/seesaw01.png'],
+                    'large'         : ['images/large/seesaw01.png', 'images/large/seesaw02.png', 'images/large/seesaw03.png', 'videos/seesaw01.mp4'],
+                    'button_list'   :
+                    [
+                        { 'title':'Playable Demo', 'url' : 'https://dl.dropboxusercontent.com/u/215389670/games/DynamicAudioSample/index.html', 'new_window' : true },
+                        { 'title':'Download Unity Project', 'url':'http://porfolio.bonchen.net/', 'new_window' : false}
+                    ],
+                    'tags'          : ['Completed Game','2D']
+                },
+		{
+                    'title'         : 'Procedurally Generated VR Maze',
+                    'description'   : 'Procedurally generation allows for unique and rich content. This maze uses an algorithm to generate a unique maze every time.',
+                    'thumbnail'     : ['images/small/MAZE.png'],
+                    'large'         : ['images/small/MAZE.png', 'images/large/2.jpg', 'images/large/3.jpg', 'images/large/10.jpg', 'images/large/11.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Playable Demo', 'url' : 'https://dl.dropboxusercontent.com/u/215389670/games/DynamicAudioSample/index.html', 'new_window' : true },
+                        { 'title':'Download Unity Project', 'url':'http://porfolio.bonchen.net/', 'new_window' : false}
+                    ],
+                    'tags'          : ['Completed Game','3D/VR']
+                },
+		{
+                    'title'         : 'VR Audio Visualizer',
+                    'description'   : 'Dynamic / Adaptive audio is important for a fluid game experince. In this demo, the background music changes in responce to player driven events without ever dropping the beat.',
+                    'thumbnail'     : ['images/small/VRAV.png'],
+                    'large'         : ['images/small/VRAV.png', 'images/large/2.jpg', 'images/large/3.jpg', 'images/large/10.jpg', 'images/large/11.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Playable Demo', 'url' : 'https://dl.dropboxusercontent.com/u/215389670/games/DynamicAudioSample/index.html', 'new_window' : true },
+                        { 'title':'Download Unity Project', 'url':'http://porfolio.bonchen.net/', 'new_window' : false}
+                    ],
+                    'tags'          : ['Technical Demo','3D/VR']
+                },
+		{
+                    'title'         : 'VR Singing Puzzle Game',
+                    'description'   : 'Dynamic / Adaptive audio is important for a fluid game experince. In this demo, the background music changes in responce to player driven events without ever dropping the beat.',
+                    'thumbnail'     : ['images/small/MIC.png'],
+                    'large'         : ['images/small/MIC.png', 'images/large/2.jpg', 'images/large/3.jpg', 'images/large/10.jpg', 'images/large/11.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Playable Demo', 'url' : 'https://dl.dropboxusercontent.com/u/215389670/games/DynamicAudioSample/index.html', 'new_window' : true },
+                        { 'title':'Download Unity Project', 'url':'http://porfolio.bonchen.net/', 'new_window' : false}
+                    ],
+                    'tags'          : ['Completed Game','3D/VR']
+                },
+		{
+                    'title'         : 'Dynamic / Adaptive Audio Demo',
+                    'description'   : 'Dynamic / Adaptive audio is important for a fluid game experince. In this demo, the background music changes in responce to player driven events without ever dropping the beat.',
+                    'thumbnail'     : ['images/small/DAAD.png'],
+                    'large'         : ['images/small/DAAD.png', 'images/large/2.jpg', 'images/large/3.jpg', 'images/large/10.jpg', 'images/large/11.jpg'],
+                    'button_list'   :
+                    [
+                        { 'title':'Playable Demo', 'url' : 'https://dl.dropboxusercontent.com/u/215389670/games/DynamicAudioSample/index.html', 'new_window' : true },
+                        { 'title':'Download Unity Project', 'url':'http://porfolio.bonchen.net/', 'new_window' : false}
+                    ],
+                    'tags'          : ['Technical Demo','2D']
+                }
+
+            ]
+        });
+    });
+</script>
+</body>
+</html>
