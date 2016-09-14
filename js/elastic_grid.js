@@ -638,12 +638,22 @@ $(function() {
                             carousel.find('.selected').removeClass('selected');
                             $(this).addClass('selected');
                             $largePhoto = $(this).data('large');
-
-                            $('<img/>').load(function(){
-                                self.$fullimage.find('img').fadeOut(500, function(){
-                                    $(this).fadeIn(500).attr('src', $largePhoto);
-                                })
-                            }).attr('src', $largePhoto);
+                            console.log($largePhoto);
+                            console.log($largePhoto.indexOf("https://www.youtube.com"));
+                            if ($largePhoto.indexOf("https://www.youtube.com") > -1) {
+                                //load youtube
+                                 $('<img/>').fadeOut(500);
+                                 console.log("load video test");
+                                //code <iframe width="560" height="315" src="https://www.youtube.com/embed/s4sl9V8zh5c" frameborder="0" allowfullscreen></iframe>
+                            }else{
+                                //load images
+                                $('<img/>').load(function(){
+                                    self.$fullimage.find('img').fadeOut(500, function(){
+                                        $(this).fadeIn(500).attr('src', $largePhoto);
+                                    })
+                                }).attr('src', $largePhoto);
+                            }
+                            
                         });
                         self.$details.append('<div class="infosep"></div>');
                         self.$details.append(carousel);
