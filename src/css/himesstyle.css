@@ -1,0 +1,239 @@
+
+body{
+		background:#fff;
+		margin:0;
+		padding:0;
+		/*background: url('bg.png');*/
+	}
+	
+	.pageheader {
+		height:125px;
+		background: cornflowerblue;
+		position:relative;
+	}
+	
+	#middle{
+		padding:20px 50px;
+	}
+	
+	.pageheader h1{
+		color:#fff;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+	
+	.pageheader h2{
+		color:#fff;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+	
+	.pageheader a {
+		color: lightgoldenrodyellow;
+	}
+
+	#menu {
+	    float:left;
+	    width:100%;
+	    border-top:4px solid #000;
+	    overflow:hidden;
+	    position:relative;
+	 }
+	 #menu ul {
+	    clear:left;
+	    float:left;
+	    list-style:none;
+	    margin:0;
+	    padding:0;
+            left: 50px;
+	    position:relative;
+	    text-align:center;
+	 }
+	 #menu ul li {
+	    display:block;
+	    float:left;
+	    list-style:none;    
+	    margin:0 0 0 1px;
+	    padding:3px 10px;
+	    position:relative;  
+	    line-height:1.3em; 
+	    background:#ddd;
+	    text-decoration:none; 
+	    color:#000;
+	 }
+	 #menu ul li hover {
+	    background:#369;
+	    color:#fff;
+	 }
+	 #menu ul li.active,
+	 #menu ul li:hover {
+	    color:#fff;
+	    background:#000;
+	    font-weight:bold;
+	 }
+	 
+	#filterMenu {
+	    float:left;
+	    width:100%;
+	    background:#fff;
+	    border-bottom:4px solid #000;
+	    overflow:hidden;
+	    position:relative;
+	 }
+	 #filterMenu ul {
+	    clear:left;
+	    float:left;
+	    list-style:none;
+	    margin:0;
+	    padding:0;
+	    position:relative;
+	    left:50%;
+	    text-align:center;
+	 }
+	 #filterMenu ul li {
+	    display:block;
+	    float:left;
+	    list-style:none;    
+	    margin:0 0 0 1px;
+	    padding:3px 10px;
+	    position:relative;
+	    right:50%;             
+	    line-height:1.3em; 
+	    background:#ddd;
+	    text-decoration:none; 
+	    color:#000;
+	 }
+	 #filterMenu ul li hover {
+	    background:#369;
+	    color:#fff;
+	 }
+	 #filterMenu ul li.active,
+	 #filterMenu ul li:hover {
+	    color:#fff;
+	    background:#000;
+	    font-weight:bold;
+	 }
+	#container{
+		width:900px;
+		margin:0 auto;
+		background:#ccc;
+	}
+	
+	form:after{
+		content: ".";
+    	display: block;
+    	height: 0;
+    	clear: both;
+    	visibility: hidden;
+	}
+	
+	.gallery{
+		background:#999;
+		width:780px;
+		height:570px;
+		padding:10px;
+		text-align:center;
+		position:relative;
+		overflow:hidden;
+	}
+
+	.buttons{
+		position:absolute;
+		right:10px;
+		bottom:10px;
+	}
+
+	.buttons a, a.button{
+		cursor:pointer;
+		display:inline-block;
+		padding:5px;
+		text-align:center;
+		margin-left:3px;
+		background:#666;
+		color:#fff;
+		font-weight:bold;
+	}
+
+	a.button.current{
+		background:#06f;
+	}
+
+	.guggenheim-item{
+		width:225px;
+		height:225px;
+		background:#06f;
+		padding:10px;
+		margin:10px 20px 10px 0;
+		color:#fff;
+		box-shadow: 10px 10px 5px #888888;
+	}
+	.guggenheim-item div{
+	    background-color: #000;
+	    padding: 5px 8px;
+	    opacity: 0.6;
+	    filter: alpha(opacity=60); /* For IE8 and earlier */
+	}
+
+	.filter-set{
+		width:150px;
+		float:left;
+	}
+
+	.filter-set.double{
+		width:304px;
+	}
+
+	.filter-set label{
+		width:150px;
+		display:inline-block;
+	}
+		
+	hr{
+		margin:40px 20px;
+		border:none;
+		height:1px;
+		background:#666;
+	}
+
+    .DAAD{
+	background-image: url("../img/DAAD.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 226px;
+	overflow: hidden;
+	width: 226px;
+    }
+    
+    .RIM{
+	background-image: url("../img/RIM.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 226px;
+	overflow: hidden;
+	width: 226px;
+    }
+    
+    .MAZE{
+	background-image: url("../img/MAZE.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 226px;
+	overflow: hidden;
+	width: 226px;
+    }
+    
+    .MIC{
+	background-image: url("../img/MIC.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 226px;
+	overflow: hidden;
+	width: 226px;
+    }
+    
+    .VRAV{
+	background-image: url("../img/VRAV.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 226px;
+	overflow: hidden;
+	width: 226px;
+    }
