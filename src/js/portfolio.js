@@ -11,7 +11,7 @@
             [
                 {
                     'title'         : 'MediaCAST',
-                    'description'   : 'MediaCAST is a Live Streaming and Video on Demand application tailored for school districts and colleges. The application interfaces with a variety of propriety hardware and software in order to make uploading and sharing a variety of digital and analog media in the classroom fun and easy.<br> Confidentialty prevents me from discussing the tech that drives this full-stack application.',
+                    'description'   : 'MediaCAST is a Live Streaming and Video on Demand application tailored for school districts and colleges. The application interfaces with a propriety hardware and software in order to make uploading and sharing a variety of digital and analog media in the classroom fun and easy.<br> Confidentialty prevents me from sharing the code or from discussing some of the tech that drives this full-stack application.',
                     'thumbnail'     : ['images/small/mediacast02.png','images/small/mediacast03.png','images/small/mediacast04.png','images/small/mediacast05.png','images/small/mediacast06.png','images/small/mediacast07.png'],
                     'large'         : ['images/large/mediacast02.png','images/large/mediacast03.png','images/large/mediacast04.png','images/large/mediacast05.png','images/large/mediacast06.png','images/large/mediacast07.png'],
                     'button_list'   :
@@ -20,6 +20,17 @@
                         { 'title':'View Company Website', 'url':'http://www.inventivetec.com/', 'new_window' : true}
                     ],
                     'tags'          : ['Full-Stack App']
+                },
+		        {
+                    'title'         : '< Rant >',
+                    'description'   : "Don\'t vent your frustrations on social media. Try screaming into the void instead. < Rant > is a simple app that will let you post what\'s bugging you without sharing or remembering any of your choice words.",
+                    'thumbnail'     : ['images/small/rant01.png','images/small/rant02.png'],
+                    'large'         : ['images/large/rant01.png','images/large/rant02.png'],
+                    'button_list'   :
+                    [
+			            { 'title':'View Project on GitHub', 'url':'https://github.com/patrickhimes/rant', 'new_window' : true}
+                    ],
+                    'tags'          : ['Angular']
                 },
 		        {
                     'title'         : 'VR Audio Visualizer',
