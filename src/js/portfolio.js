@@ -22,6 +22,18 @@
                     'tags'          : ['Full-Stack App']
                 },
 		        {
+                    'title'         : 'Streaming Radio',
+                    'description'   : "A simple Angular app for streaming radio stations based on Icecast and Liquidsoap. It also uses last.fm's API to try to find album artwork.",
+                    'thumbnail'     : ['images/small/radio.png'],
+                    'large'         : ['images/large/radio.png'],
+                    'button_list'   :
+                    [
+			          { 'title':'Watch Demo on YouTube', 'url' : 'https://youtu.be/nrIUyExQC-U', 'new_window' : true },
+                        { 'title':'View Project on GitHub', 'url':'https://github.com/patrickhimes/streaming-radio', 'new_window' : true}
+                    ],
+                    'tags'          : ['Angular']
+                },
+		        {
                     'title'         : '< Rant >',
                     'description'   : "Don\'t vent your frustrations on social media. Try screaming into the void instead. < Rant > is a simple app that will let you post what\'s bugging you without sharing or remembering any of your choice words.",
                     'thumbnail'     : ['images/small/rant01.png','images/small/rant02.png'],
