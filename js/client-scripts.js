@@ -1943,12 +1943,12 @@ $(function() {
                 },
 		        {
                     'title'         : 'Streaming Radio',
-                    'description'   : "A simple Angular app for streaming radio stations based on Icecast and Liquidsoap. It also uses last.fm's API to try to find album artwork. Currently, only written for Chrome Browsers.",
+                    'description'   : "A simple Angular app for streaming radio stations based on Icecast and Liquidsoap. It also uses last.fm's API to try to find album artwork. Currently, only written for Chrome and FireFox.",
                     'thumbnail'     : ['images/small/radio.png'],
                     'large'         : ['images/large/radio.png'],
                     'button_list'   :
                     [
-                        //{ 'title':'Live Demo', 'url' : 'http://165.227.31.125:3000', 'new_window' : true },
+                        { 'title':'Live Demo', 'url' : 'http://165.227.31.125:8080/masebs-radio-player/', 'new_window' : true },
 			          { 'title':'Watch Demo on YouTube', 'url' : 'https://youtu.be/nrIUyExQC-U', 'new_window' : true },
                         { 'title':'View Project on GitHub', 'url':'https://github.com/patrickhimes/streaming-radio', 'new_window' : true}
                     ],
