@@ -1944,15 +1944,25 @@ $(function() {
 		        {
                     'title'         : 'Streaming Radio',
                     'description'   : "A simple Angular app for streaming radio stations based on Icecast and Liquidsoap. It also uses last.fm's API to try to find album artwork. Currently, only written for Chrome and FireFox.",
-                    'thumbnail'     : ['images/small/radio.png'],
-                    'large'         : ['images/large/radio.png'],
+                    'thumbnail'     : ['images/small/radio.png','images/small/radio02.png'],
+                    'large'         : ['images/large/radio.png','images/large/radio02.png'],
                     'button_list'   :
                     [
                         { 'title':'Live Demo', 'url' : 'http://165.227.31.125:8080/masebs-radio-player/', 'new_window' : true },
-			          { 'title':'Watch Demo on YouTube', 'url' : 'https://youtu.be/nrIUyExQC-U', 'new_window' : true },
-                        { 'title':'View Project on GitHub', 'url':'https://github.com/patrickhimes/streaming-radio', 'new_window' : true}
+			             { 'title':'Source Code', 'url':'https://github.com/patrickhimes/masebs-radio-player', 'new_window' : true}
                     ],
                     'tags'          : ['Angular']
+                },
+		        {
+                    'title'         : 'Retro Terminal',
+                    'description'   : "A retro-style terminal screen with scan lines using only CSS and basic javascript.",
+                    'thumbnail'     : ['images/small/terminal.png'],
+                    'large'         : ['images/large/terminal.png'],
+                    'button_list'   :
+                    [
+                        { 'title':'View on CodePen', 'url':'https://codepen.io/patrickhimes/pen/ZJQLqW', 'new_window' : true}
+                    ],
+                    'tags'          : ['JavaScript']
                 },
 		        {
                     'title'         : '< Rant >',
@@ -1961,7 +1971,7 @@ $(function() {
                     'large'         : ['images/large/rant01.png','images/large/rant02.png'],
                     'button_list'   :
                     [
-			            { 'title':'View Project on GitHub', 'url':'https://github.com/patrickhimes/rant', 'new_window' : true}
+			            { 'title':'Source Code', 'url':'https://github.com/patrickhimes/rant', 'new_window' : true}
                     ],
                     'tags'          : ['Angular']
                 },
@@ -1974,7 +1984,7 @@ $(function() {
                     [
                         //{ 'title':'Playable Demo', 'url' : 'https://dl.dropboxusercontent.com/u/215389670/games/DynamicAudioSample/index.html', 'new_window' : true },
 			        { 'title':'Watch Demo on YouTube', 'url' : 'https://www.youtube.com/watch?v=s4sl9V8zh5c', 'new_window' : true },
-                        { 'title':'View Project on GitHub', 'url':'https://github.com/patrickhimes/unity-audio-visualizer', 'new_window' : true}
+                        { 'title':'Source Code', 'url':'https://github.com/patrickhimes/unity-audio-visualizer', 'new_window' : true}
                     ],
                     'tags'          : ['Unity3D']
                 },
@@ -1986,7 +1996,7 @@ $(function() {
                     'button_list'   :
                     [
                        // { 'title':'Playable Demo', 'url' : 'https://dl.dropboxusercontent.com/u/215389670/games/DynamicAudioSample/index.html', 'new_window' : true },
-                        { 'title':'View Project on GitHub', 'url':'https://github.com/patrickhimes/PipBuck', 'new_window' : true}
+                        { 'title':'Source Code', 'url':'https://github.com/patrickhimes/PipBuck', 'new_window' : true}
                     ],
                     'tags'          : ['Unity3D']
                 }
